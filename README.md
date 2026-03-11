@@ -33,3 +33,17 @@ Code written by Narayani Barve:
 17.  WCVP_list.R - gets accepted and synonym names for taxa from wcvp
 18.  WithOver_SpatialJoin.R - tests results of certain cleaning decisions
 19.  WorkFlow.R - where the full SDM pipeline is run
+
+Code written by Tal Kinesar:
+1.   TK01_canaper_setup.R - prepares input data for canaper analyses
+2.   TK02_canaper_analyses.R - takes provided input data and executes canaper functions with randomizations
+3.   TK03_add_propGeoPD.R - calculates geophyte proportional PD and SR
+4.   TK04_canaper_plot.R - creates diversity maps from canaper output
+5.   TK05_getMasters.R - generates master lists with diversity metrics derived through canaper and environmental predictor data from rasters for regression analyses
+6.   TK06_selectVars.R - performs variable selection for regression models of various diversity metrics
+7.   TK07_predVars_plot.R - produces coefficient plots (and related tables) from regression model output
+8.   TK08_beta_phyloregion.R - generates beta dissimilarity matrices using phyloregion functions
+9.   TK09_beta_medClim.R - calculates turnover / nestedness within core zones and between core and buffer zones
+10.  TK10_beta_perman.R - performs PERMANOVAS on turnover / nestedness between core and buffer zones
+11.  TK11_beta_medClim_plot.R - produces plots for turnover / nestedness
+
